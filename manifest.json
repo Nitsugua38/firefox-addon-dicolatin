@@ -1,9 +1,9 @@
 {	
 
-	"name": "Recherche Dicolatin",
+	"name": "Recherche DL",
 	"description": "Faites des recherches Dicolatin.com facilement. Sélectionnez un mot latin, faites un clic-droit «Rechercher avec Dicolatin». Ou tapez dans la barre d'adresse: dl (votre mot latin)",
 	"manifest_version": 2,
-	"version": "2.2",
+	"version": "3.0",
 	"omnibox": { "keyword" : "dl" },	
 	"permissions": [
 		"activeTab",     
@@ -22,10 +22,10 @@
 
 	"browser_action": {
     	"default_icon": "icons/48.png",
-    	"default_title": "Recherche Dicolatin"
+    	"default_title": "Recherche Dicolatin",
+	"default_popup": "recherche.html"
 	}
 
 	
 }
-
 
